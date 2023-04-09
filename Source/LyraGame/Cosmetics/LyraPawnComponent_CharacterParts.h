@@ -152,6 +152,10 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category=Cosmetics)
 	void RemoveAllCharacterParts();
 
+	// by Locketgoma (23.04.09) : 의상 바뀌면 오너 재 설정
+	UFUNCTION(BlueprintCallable, Category=Cosmetics)
+	void SetOwnerToCharacterParts();
+
 	// Gets the list of all spawned character parts from this component
 	UFUNCTION(BlueprintCallable, BlueprintPure=false, BlueprintCosmetic, Category=Cosmetics)
 	TArray<AActor*> GetCharacterPartActors() const;

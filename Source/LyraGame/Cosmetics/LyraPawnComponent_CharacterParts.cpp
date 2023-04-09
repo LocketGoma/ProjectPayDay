@@ -18,6 +18,7 @@
 #include "Templates/SubclassOf.h"
 #include "UObject/NameTypes.h"
 #include "UObject/UObjectBaseUtility.h"
+#include "GameModes/AsyncAction_ExperienceReady.h"
 
 #include UE_INLINE_GENERATED_CPP_BY_NAME(LyraPawnComponent_CharacterParts)
 
@@ -255,9 +256,27 @@ void ULyraPawnComponent_CharacterParts::RemoveAllCharacterParts()
 	CharacterPartList.ClearAllEntries(/*bBroadcastChangeDelegate=*/ true);
 }
 
+void ULyraPawnComponent_CharacterParts::SetOwnerToCharacterParts()
+{
+	for (const FLyraAppliedCharacterPartEntry& Entry : CharacterPartList.Entries)
+	{
+		if (UChildActorComponent* PartComponent = Entry.SpawnedComponent)
+		{
+			if (AActor* SpawnedActor = PartComponent->GetChildActor())
+			{
+				SpawnedActor->SetOwner(GetOwner());;
+			}
+		}
+	}
+}
+
 void ULyraPawnComponent_CharacterParts::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//wait for experience ready
+	
+	CharacterPartList = this;
 }
 
 void ULyraPawnComponent_CharacterParts::EndPlay(const EEndPlayReason::Type EndPlayReason)
@@ -351,6 +370,8 @@ void ULyraPawnComponent_CharacterParts::BroadcastChanged()
 			MeshComponent->SetPhysicsAsset(PhysicsAsset, /*bForceReInit=*/ bReinitPose);
 		}
 	}
+
+	SetOwnerToCharacterParts();
 
 	// Let observers know, e.g., if they need to apply team coloring or similar
 	OnCharacterPartsChanged.Broadcast(this);
