@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ProjectPaydayRuntime-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h.obj"
+"F:\Programing\Unreal\ProjectPayday\Plugins\GameFeatures\ProjectPayday\Intermediate\Build\Win64\UnrealEditor\DebugGame\ProjectPaydayRuntime\ProjectPaydayRuntimeModule.cpp.obj"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"F:\Programing\Unreal\ProjectPayday\Plugins\GameFeatures\ProjectPayday\Intermediate\Build\Win64\UnrealEditor\DebugGame\ProjectPaydayRuntime\UnrealEditor-ProjectPaydayRuntime-Win64-DebugGame.lib"

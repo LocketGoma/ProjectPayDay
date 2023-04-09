@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "f:\\programing\\unreal\\projectpayday\\plugins\\gamefeatures\\projectpayday\\source\\projectpaydayruntime\\private\\projectpaydayruntimemodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\programing\\ue5_git\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\development\\engine\\sharedpch.engine.nonoptimized.shadowerrors.h.pch",
+        "Includes": [
+            "f:\\programing\\unreal\\projectpayday\\plugins\\gamefeatures\\projectpayday\\intermediate\\build\\win64\\unrealeditor\\debuggame\\projectpaydayruntime\\definitions.projectpaydayruntime.h",
+            "f:\\programing\\unreal\\projectpayday\\plugins\\gamefeatures\\projectpayday\\source\\projectpaydayruntime\\public\\projectpaydayruntimemodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
