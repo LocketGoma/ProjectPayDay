@@ -69,7 +69,11 @@ Saved/*
 # Compiled source files for the engine to use
 Intermediate/*
 Plugins/*/Intermediate/*
-Plugins/*/*/Intermediate/*
+Plugins/GameFeatures/ShooterCore/Intermediate/*
+Plugins/GameFeatures/ShooterExplorer/Intermediate/*
+Plugins/GameFeatures/ShooterMaps/Intermediate/*
+Plugins/GameFeatures/ShooterTests/Intermediate/*
+Plugins/GameFeatures/ProjectPayday/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
