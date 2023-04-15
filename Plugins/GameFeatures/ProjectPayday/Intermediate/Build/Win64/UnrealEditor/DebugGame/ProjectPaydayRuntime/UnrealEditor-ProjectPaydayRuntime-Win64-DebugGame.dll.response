@@ -19,9 +19,9 @@
 /ignore:4099
 /DELAYLOAD:"d3d12.dll"
 /DELAYLOAD:"DBGHELP.DLL"
-/LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133\lib\x64"
-/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\ucrt\x64"
-/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64"
+/LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22000.0\ucrt\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22000.0\um\x64"
 /NODEFAULTLIB:"LIBCMT"
 /NODEFAULTLIB:"LIBCPMT"
 /NODEFAULTLIB:"LIBCMTD"
@@ -34,7 +34,7 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
 "..\Intermediate\Build\Win64\UnrealEditor\Development\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h.obj"
-"F:\Programing\Unreal\ProjectPayday\Plugins\GameFeatures\ProjectPayday\Intermediate\Build\Win64\UnrealEditor\DebugGame\ProjectPaydayRuntime\ProjectPaydayRuntimeModule.cpp.obj"
+"E:\UE5\ProjectPayday\Plugins\GameFeatures\ProjectPayday\Intermediate\Build\Win64\UnrealEditor\DebugGame\ProjectPaydayRuntime\ProjectPaydayRuntimeModule.cpp.obj"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\Default.rc2.res"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
@@ -65,7 +65,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"F:\Programing\Unreal\ProjectPayday\Plugins\GameFeatures\ProjectPayday\Binaries\Win64\UnrealEditor-ProjectPaydayRuntime-Win64-DebugGame.dll"
-/IMPLIB:"F:\Programing\Unreal\ProjectPayday\Plugins\GameFeatures\ProjectPayday\Intermediate\Build\Win64\UnrealEditor\DebugGame\ProjectPaydayRuntime\UnrealEditor-ProjectPaydayRuntime-Win64-DebugGame.suppressed.lib"
-/PDB:"F:\Programing\Unreal\ProjectPayday\Plugins\GameFeatures\ProjectPayday\Binaries\Win64\UnrealEditor-ProjectPaydayRuntime-Win64-DebugGame.pdb"
+/OUT:"E:\UE5\ProjectPayday\Plugins\GameFeatures\ProjectPayday\Binaries\Win64\UnrealEditor-ProjectPaydayRuntime-Win64-DebugGame.dll"
+/IMPLIB:"E:\UE5\ProjectPayday\Plugins\GameFeatures\ProjectPayday\Intermediate\Build\Win64\UnrealEditor\DebugGame\ProjectPaydayRuntime\UnrealEditor-ProjectPaydayRuntime-Win64-DebugGame.suppressed.lib"
+/PDB:"E:\UE5\ProjectPayday\Plugins\GameFeatures\ProjectPayday\Binaries\Win64\UnrealEditor-ProjectPaydayRuntime-Win64-DebugGame.pdb"
 /ignore:4078
