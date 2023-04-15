@@ -81,4 +81,5 @@ DerivedDataCache/*
 # ETC
 Binaries/*
 *.uproject
-
+ProjectPayday.uproject
+.vsconfig
