@@ -8,10 +8,12 @@
 #include "GameFramework/Character.h"
 #include "GameFramework/Pawn.h"
 #include "LyraEquipmentDefinition.h"
+#include "AbilitySystem/LyraTaggedActor.h"
 #include "Math/Transform.h"
 #include "Misc/AssertionMacros.h"
 #include "Net/UnrealNetwork.h"
 #include "Templates/Casts.h"
+#include "Cosmetics/LyraPawnComponent_CharacterParts.h"
 
 #if UE_WITH_IRIS
 #include "Iris/ReplicationSystem/ReplicationFragmentUtil.h"
@@ -86,6 +88,29 @@ void ULyraEquipmentInstance::SpawnEquipmentActors(const TArray<FLyraEquipmentAct
 		if (ACharacter* Char = Cast<ACharacter>(OwningPawn))
 		{
 			AttachTarget = Char->GetMesh();
+
+			//ÄÚ½º¸ÞÆ½ ÀÖÀ¸¸é ÄÚ½º¸ÞÆ½ ¸ðµ¨ »ç¿ë			
+			//ULyraPawnComponent_CharacterParts* PawnCosmetic = Char->FindComponentByClass<ULyraPawnComponent_CharacterParts>();
+			TArray<AActor *> AttachedActor;
+			Char->GetAttachedActors(AttachedActor);
+
+			for (AActor* It : AttachedActor)
+			{
+				ALyraTaggedActor* TaggedActor = Cast<ALyraTaggedActor>(It);
+				if (!TaggedActor)
+				{
+					continue;
+				}
+				USkeletalMeshComponent* MeshComp = TaggedActor->FindComponentByClass<USkeletalMeshComponent>();
+				if (!MeshComp)
+				{
+					continue;
+				}
+
+				AttachTarget = MeshComp;
+
+				break;
+			}
 		}
 
 		for (const FLyraEquipmentActorToSpawn& SpawnInfo : ActorsToSpawn)

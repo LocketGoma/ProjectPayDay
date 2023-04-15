@@ -76,6 +76,10 @@
 		{
 			"Name": "ShooterTests",
 			"Enabled": true
+		},
+		{
+			"Name": "LyraExtTool",
+			"Enabled": true
 		}
 	]
 }
