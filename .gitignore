@@ -83,3 +83,5 @@ Binaries/*
 *.uproject
 ProjectPayday.uproject
 .vsconfig
+Plugins/GameFeatures/ShooterCore/Intermediate
+Plugins/GameFeatures/ProjectPayday/Intermediate
