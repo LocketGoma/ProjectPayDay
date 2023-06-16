@@ -1,0 +1,3045 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ProjectPayday.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LyraClient.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LyraEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LyraGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LyraServer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\LICENSE" />
+    <None Include="..\..\ProjectPayday.pptx" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{ED49A36C-4FD5-37E5-A2AC-E11BEF4F21CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Android">
+      <UniqueIdentifier>{1E704F10-42DC-311D-8B57-64A1F2C5684E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Android\readme.txt">
+      <Filter>Platforms\Android</Filter>
+    </None>
+    <Filter Include="Platforms\IOS">
+      <UniqueIdentifier>{8BDFD5E3-FDCF-3305-A3DA-0FC0494A87F4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\IOS\readme.txt">
+      <Filter>Platforms\IOS</Filter>
+    </None>
+    <Filter Include="Platforms\Linux">
+      <UniqueIdentifier>{90A6B23F-5155-3212-A4F2-DF25EB341ACB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Linux\readme.txt">
+      <Filter>Platforms\Linux</Filter>
+    </None>
+    <Filter Include="Platforms\Mac">
+      <UniqueIdentifier>{798C8104-FC45-3C34-BB54-435968E47C65}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Mac\readme.txt">
+      <Filter>Platforms\Mac</Filter>
+    </None>
+    <Filter Include="Platforms\Windows">
+      <UniqueIdentifier>{18AE318C-ED72-32BD-AE1E-46F57252EBE5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Windows\readme.txt">
+      <Filter>Platforms\Windows</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultDeviceProfiles.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorKeyBindings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultRuntimeOptions.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultScalability.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{1797D593-7CC5-3812-9193-8AAD12A3DA98}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <None Include="..\..\Config\Android\AndroidGame.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <None Include="..\..\Config\Android\AndroidScalability.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\Android\Custom">
+      <UniqueIdentifier>{DE3CC5EC-F757-3977-81BF-927F9393E45C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\Android\Custom\EOS">
+      <UniqueIdentifier>{6B7F5B33-E022-3F50-BB11-9A520E760413}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\Custom\EOS\AndroidEngine.ini">
+      <Filter>Config\Android\Custom\EOS</Filter>
+    </None>
+    <Filter Include="Config\Custom">
+      <UniqueIdentifier>{CD915EEF-3F33-3DD6-AC65-CF3A30DCDA05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\Custom\EOS">
+      <UniqueIdentifier>{7C878DB5-3768-33AF-AEB1-042086BA8F3A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Custom\EOS\DefaultEngine.ini">
+      <Filter>Config\Custom\EOS</Filter>
+    </None>
+    <None Include="..\..\Config\Custom\EOS\DefaultGame.ini">
+      <Filter>Config\Custom\EOS</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{24CC5E3B-B198-3F29-8EA5-3FB438ECAFF8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <None Include="..\..\Config\IOS\IOSGame.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <None Include="..\..\Config\IOS\IOSScalability.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{62222DB5-2E52-3B40-AC87-B309EDE2441D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <None Include="..\..\Config\Linux\LinuxGame.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Localization">
+      <UniqueIdentifier>{25C28B87-132A-3131-93E6-9EBC1CFCF780}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Localization\EngineOverrides_Compile.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\EngineOverrides_Export.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\EngineOverrides_ExportDialogueScript.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\EngineOverrides_Gather.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\EngineOverrides_GenerateReports.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\EngineOverrides_Import.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\EngineOverrides_ImportDialogue.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\EngineOverrides_ImportDialogueScript.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_Compile.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_Export.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_ExportDialogueScript.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_Gather.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_GenerateReports.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_Import.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_ImportDialogue.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <None Include="..\..\Config\Localization\Game_ImportDialogueScript.ini">
+      <Filter>Config\Localization</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{C34A53DE-7A2E-391F-9292-A84444E41B18}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <None Include="..\..\Config\Mac\MacGame.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{5AE2AEFB-02F3-3CFB-A403-46456DE91BCC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <None Include="..\..\Config\Windows\WindowsGame.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\Windows\Custom">
+      <UniqueIdentifier>{677B8596-6112-33E6-A9F3-2F10BF4F8D58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\Windows\Custom\EOS">
+      <UniqueIdentifier>{260BEE93-B217-34E4-9FC9-A9CD5A588533}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\Custom\EOS\WindowsEngine.ini">
+      <Filter>Config\Windows\Custom\EOS</Filter>
+    </None>
+    <Filter Include="Platforms\HoloLens">
+      <UniqueIdentifier>{28125F47-4973-377C-9D77-EBC3C72EC856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens\Config">
+      <UniqueIdentifier>{D3BF39CB-FA64-39E2-A327-B5021BA69773}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\HoloLens\Config\HoloLensEngine.ini">
+      <Filter>Platforms\HoloLens\Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ALS_Community">
+      <UniqueIdentifier>{B765A09C-48E7-3D9D-B361-D2D699CFCF48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ALS_Community\Source">
+      <UniqueIdentifier>{ADCD2F73-5C2F-33EE-8D93-97EA0081F32C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP">
+      <UniqueIdentifier>{69551F65-5591-3DC8-9209-1AC75C548106}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\ALSV4_CPP.Build.cs">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\ALSV4_CPP.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\ALSV4_CPP.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP\Private">
+      <UniqueIdentifier>{5A6B8687-A434-32AD-AEC3-4E99C0081BCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP\Private\AI">
+      <UniqueIdentifier>{660C3B37-1B7E-3128-BF3A-25463184B043}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\AI\ALSAIController.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\AI\ALS_BTTask_GetRandomLocation.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\AI\ALS_BTTask_SetFocusToPlayer.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\AI</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character">
+      <UniqueIdentifier>{E42FAC2A-ABC5-3BE1-B514-D3148B15645D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\ALSBaseCharacter.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\ALSCharacter.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\ALSCharacterMovementComponent.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\ALSPlayerCameraManager.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\ALSPlayerController.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation">
+      <UniqueIdentifier>{200676E5-9FA2-3BE7-953C-70B5A4C093B2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\ALSCharacterAnimInstance.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\ALSPlayerCameraBehavior.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\Notify">
+      <UniqueIdentifier>{10D53791-2FAC-33E6-A1C2-3ACF3A3E3E29}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\Notify\ALSAnimNotifyCameraShake.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\Notify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\Notify\ALSAnimNotifyFootstep.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\Notify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\Notify\ALSAnimNotifyGroundedEntryState.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\Notify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\Notify\ALSNotifyStateEarlyBlendOut.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\Notify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\Notify\ALSNotifyStateMovementAction.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\Notify</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\Notify\ALSNotifyStateOverlayOverride.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Character\Animation\Notify</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP\Private\Components">
+      <UniqueIdentifier>{0D0F208F-8A9C-3241-BACC-11AE0EBA9719}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Components\ALSDebugComponent.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Components\ALSMantleComponent.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Components</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP\Private\Library">
+      <UniqueIdentifier>{3351AC3D-D356-36FC-BCE7-8295B29C9318}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Private\Library\ALSMathLibrary.cpp">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Private\Library</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP\Public">
+      <UniqueIdentifier>{1B59A110-EB51-3369-889D-2D383DAE1C50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP\Public\AI">
+      <UniqueIdentifier>{8DE70C81-F450-3E8C-ADBA-CA2D03E2DF2B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\AI\ALSAIController.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\AI\ALS_BTTask_GetRandomLocation.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\AI\ALS_BTTask_SetFocusToPlayer.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\AI</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character">
+      <UniqueIdentifier>{EB685BC7-C338-3BD7-9DC8-06B3A455CE3C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\ALSBaseCharacter.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\ALSCharacter.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\ALSCharacterMovementComponent.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\ALSPlayerCameraManager.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\ALSPlayerController.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation">
+      <UniqueIdentifier>{2165EE29-5F24-36EA-A4F3-95F53AF018F4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\ALSCharacterAnimInstance.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\ALSPlayerCameraBehavior.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\Notify">
+      <UniqueIdentifier>{0F342E87-D6B9-3C81-B222-ACECD0EFF3D0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\Notify\ALSAnimNotifyCameraShake.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\Notify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\Notify\ALSAnimNotifyFootstep.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\Notify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\Notify\ALSAnimNotifyGroundedEntryState.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\Notify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\Notify\ALSNotifyStateEarlyBlendOut.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\Notify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\Notify\ALSNotifyStateMovementAction.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\Notify</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\Notify\ALSNotifyStateOverlayOverride.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Character\Animation\Notify</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP\Public\Components">
+      <UniqueIdentifier>{69CA5F89-C1A9-3D1C-8E23-82955176CE33}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Components\ALSDebugComponent.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Components\ALSMantleComponent.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Components</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ALS_Community\Source\ALSV4_CPP\Public\Library">
+      <UniqueIdentifier>{4911BC5A-501B-316C-9861-C5E9E359479E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Library\ALSAnimationStructLibrary.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Library\ALSCharacterEnumLibrary.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Library\ALSCharacterStructLibrary.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Library\ALSMathLibrary.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ALS_Community\Source\ALSV4_CPP\Public\Library\ALSStructEnumLibrary.h">
+      <Filter>Plugins\ALS_Community\Source\ALSV4_CPP\Public\Library</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\ALS_Community\ALSV4_CPP.uplugin">
+      <Filter>Plugins\ALS_Community</Filter>
+    </None>
+    <Filter Include="Plugins\ALS_Community\Resources">
+      <UniqueIdentifier>{3F2B0B68-A5A5-333A-98EA-364CF31D85D3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ALS_Community\Resources\Icon128.png">
+      <Filter>Plugins\ALS_Community\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\ALS_Community\Resources\Readme_Content_2.gif">
+      <Filter>Plugins\ALS_Community\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\ALS_Community\Resources\Readme_Content_3.png">
+      <Filter>Plugins\ALS_Community\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\ALS_Community\Resources\Readme_Content_4.png">
+      <Filter>Plugins\ALS_Community\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AsyncMixin">
+      <UniqueIdentifier>{913FA2B8-9437-33E6-A8C7-ACB05DCB9966}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AsyncMixin\AsyncMixin.uplugin">
+      <Filter>Plugins\AsyncMixin</Filter>
+    </None>
+    <Filter Include="Plugins\CommonGame">
+      <UniqueIdentifier>{E1E239CD-53BC-3B92-8DE7-AD14CF3D2557}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CommonGame\CommonGame.uplugin">
+      <Filter>Plugins\CommonGame</Filter>
+    </None>
+    <Filter Include="Plugins\CommonLoadingScreen">
+      <UniqueIdentifier>{DB527D3F-6562-3F6B-BDCE-ED7598D43504}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CommonLoadingScreen\CommonLoadingScreen.uplugin">
+      <Filter>Plugins\CommonLoadingScreen</Filter>
+    </None>
+    <Filter Include="Plugins\CommonLoadingScreen\Resources">
+      <UniqueIdentifier>{9D9C6F3D-556D-3E02-B131-F740A15AC9B9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CommonLoadingScreen\Resources\Icon128.png">
+      <Filter>Plugins\CommonLoadingScreen\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\CommonUser">
+      <UniqueIdentifier>{8716E485-BC4A-3B38-8F39-874ACA390677}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CommonUser\CommonUser.uplugin">
+      <Filter>Plugins\CommonUser</Filter>
+    </None>
+    <Filter Include="Plugins\CommonUser\Resources">
+      <UniqueIdentifier>{244EABB8-94D5-3428-81D6-CF7BA7F27A69}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CommonUser\Resources\Icon128.png">
+      <Filter>Plugins\CommonUser\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures">
+      <UniqueIdentifier>{33C51FE3-4BD4-3B9E-9F42-5CCDEE9DF75F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameFeatures\ProjectPayday">
+      <UniqueIdentifier>{5ADA8463-A511-3389-8E33-4F8856FB305C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\ProjectPayday\ProjectPayday.uplugin">
+      <Filter>Plugins\GameFeatures\ProjectPayday</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\ProjectPayday\Resources">
+      <UniqueIdentifier>{3E96BA42-17EC-3307-8FF4-3BFA34740015}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\ProjectPayday\Resources\Icon128.png">
+      <Filter>Plugins\GameFeatures\ProjectPayday\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\ShooterCore">
+      <UniqueIdentifier>{9EAB060A-4227-3119-B8B8-68E8C17601F7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\ShooterCore\ShooterCore.uplugin">
+      <Filter>Plugins\GameFeatures\ShooterCore</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\ShooterCore\Config">
+      <UniqueIdentifier>{FCFE2268-3093-34CC-BC31-00208950DA9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameFeatures\ShooterCore\Config\Tags">
+      <UniqueIdentifier>{8AFB70F5-31B0-35B1-892D-6BA5DDEEFA38}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\ShooterCore\Config\Tags\ShooterCoreTags.ini">
+      <Filter>Plugins\GameFeatures\ShooterCore\Config\Tags</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\ShooterCore\Resources">
+      <UniqueIdentifier>{35CA5496-A00E-367E-960B-FED1076F9B4F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\ShooterCore\Resources\Icon128.png">
+      <Filter>Plugins\GameFeatures\ShooterCore\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\ShooterExplorer">
+      <UniqueIdentifier>{5064C463-26CD-3F1C-9767-8B42FE151CEB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\ShooterExplorer\ShooterExplorer.uplugin">
+      <Filter>Plugins\GameFeatures\ShooterExplorer</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\ShooterMaps">
+      <UniqueIdentifier>{029BD39D-66BE-35C3-8F4F-F84A1574BCCB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\ShooterMaps\ShooterMaps.uplugin">
+      <Filter>Plugins\GameFeatures\ShooterMaps</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\ShooterMaps\Resources">
+      <UniqueIdentifier>{004C5CFB-F36B-3F9C-8863-A9537A789A05}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\ShooterMaps\Resources\Icon128.png">
+      <Filter>Plugins\GameFeatures\ShooterMaps\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\ShooterTests">
+      <UniqueIdentifier>{9CDE6AEC-9809-3AD0-B4AD-53AE0E99B765}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\ShooterTests\ShooterTests.uplugin">
+      <Filter>Plugins\GameFeatures\ShooterTests</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\ShooterTests\Resources">
+      <UniqueIdentifier>{6FE1DB05-DAEC-342A-981C-F2713EB55EE6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\ShooterTests\Resources\Icon128.png">
+      <Filter>Plugins\GameFeatures\ShooterTests\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\GameplayMessageRouter">
+      <UniqueIdentifier>{9D7281A3-00CF-37CE-AB96-C65F44BCD644}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameplayMessageRouter\GameplayMessageRouter.uplugin">
+      <Filter>Plugins\GameplayMessageRouter</Filter>
+    </None>
+    <Filter Include="Plugins\GameSettings">
+      <UniqueIdentifier>{F94CAB11-639E-3322-AE1F-5FA3B66FE6BA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameSettings\GameSettings.uplugin">
+      <Filter>Plugins\GameSettings</Filter>
+    </None>
+    <Filter Include="Plugins\GameSubtitles">
+      <UniqueIdentifier>{A7ECCD8D-DC12-3185-A82D-64325B529FD7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameSubtitles\GameSubtitles.uplugin">
+      <Filter>Plugins\GameSubtitles</Filter>
+    </None>
+    <Filter Include="Plugins\GameSubtitles\Config">
+      <UniqueIdentifier>{C143EFE7-84C9-3C92-961F-2335DA94EB6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameSubtitles\Config\Tags">
+      <UniqueIdentifier>{0FB86492-EF7A-30BC-80ED-F62135133BA2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameSubtitles\Config\Tags\PluginTags.ini">
+      <Filter>Plugins\GameSubtitles\Config\Tags</Filter>
+    </None>
+    <Filter Include="Plugins\LyraExampleContent">
+      <UniqueIdentifier>{B0AEE50D-DE35-3EAE-B828-8B932102F59B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LyraExampleContent\LyraExampleContent.uplugin">
+      <Filter>Plugins\LyraExampleContent</Filter>
+    </None>
+    <Filter Include="Plugins\LyraExtTool">
+      <UniqueIdentifier>{E72F9B12-4B40-3852-BD2C-71EEFEF7C3FC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LyraExtTool\LyraExtTool.uplugin">
+      <Filter>Plugins\LyraExtTool</Filter>
+    </None>
+    <Filter Include="Plugins\LyraExtTool\Resources">
+      <UniqueIdentifier>{27B399BE-A012-3CBF-8A27-DEEABCBDD699}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LyraExtTool\Resources\Icon128.png">
+      <Filter>Plugins\LyraExtTool\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\ModularGameplayActors">
+      <UniqueIdentifier>{E25759FB-664C-355F-8250-88BB112CE4AF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ModularGameplayActors\ModularGameplayActors.uplugin">
+      <Filter>Plugins\ModularGameplayActors</Filter>
+    </None>
+    <Filter Include="Plugins\PocketWorlds">
+      <UniqueIdentifier>{3BFB39E1-12BD-3223-9587-2D797C9D1411}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\PocketWorlds\PocketWorlds.uplugin">
+      <Filter>Plugins\PocketWorlds</Filter>
+    </None>
+    <Filter Include="Plugins\UIExtension">
+      <UniqueIdentifier>{3E763937-0343-3397-B855-33D0F0C06D84}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UIExtension\UIExtension.uplugin">
+      <Filter>Plugins\UIExtension</Filter>
+    </None>
+    <Filter Include="Plugins\AsyncMixin\Source">
+      <UniqueIdentifier>{01C69B54-64EA-3E2D-B93B-43B9815B4A29}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AsyncMixin\Source\AsyncMixin.Build.cs">
+      <Filter>Plugins\AsyncMixin\Source</Filter>
+    </None>
+    <Filter Include="Plugins\AsyncMixin\Source\Private">
+      <UniqueIdentifier>{AF86E584-DBCF-3C2E-BDB6-B41B85DF9444}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AsyncMixin\Source\Private\AsyncMixin.cpp">
+      <Filter>Plugins\AsyncMixin\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AsyncMixin\Source\Private\AsyncMixinModule.cpp">
+      <Filter>Plugins\AsyncMixin\Source\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\AsyncMixin\Source\Public">
+      <UniqueIdentifier>{98CC39EB-B5D0-34EE-8BD0-0A9D621A1CA1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AsyncMixin\Source\Public\AsyncMixin.h">
+      <Filter>Plugins\AsyncMixin\Source\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CommonGame\Source">
+      <UniqueIdentifier>{38A194BF-B69F-3709-A5F4-B4EDA2B5B5F9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CommonGame\Source\CommonGame.Build.cs">
+      <Filter>Plugins\CommonGame\Source</Filter>
+    </None>
+    <Filter Include="Plugins\CommonGame\Source\Private">
+      <UniqueIdentifier>{5B0BCB3E-C987-3E6F-9319-75EA8AF4C53E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\CommonGameInstance.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\CommonGameModule.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\CommonLocalPlayer.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\CommonPlayerController.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\CommonPlayerInputKey.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\CommonUIExtensions.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\GameUIManagerSubsystem.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\GameUIPolicy.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\LogCommonGame.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Private\LogCommonGame.h">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\PrimaryGameLayout.cpp">
+      <Filter>Plugins\CommonGame\Source\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\CommonGame\Source\Private\Actions">
+      <UniqueIdentifier>{D64C553B-0901-3224-8FA0-F5D214C1032B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\Actions\AsyncAction_CreateWidgetAsync.cpp">
+      <Filter>Plugins\CommonGame\Source\Private\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\Actions\AsyncAction_PushContentToLayerForPlayer.cpp">
+      <Filter>Plugins\CommonGame\Source\Private\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\Actions\AsyncAction_ShowConfirmation.cpp">
+      <Filter>Plugins\CommonGame\Source\Private\Actions</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\CommonGame\Source\Private\Messaging">
+      <UniqueIdentifier>{90C1FC57-080E-396F-B587-CC56EBCA9C62}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\Messaging\CommonGameDialog.cpp">
+      <Filter>Plugins\CommonGame\Source\Private\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonGame\Source\Private\Messaging\CommonMessagingSubsystem.cpp">
+      <Filter>Plugins\CommonGame\Source\Private\Messaging</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\CommonGame\Source\Public">
+      <UniqueIdentifier>{2A893F07-2A83-35C7-9C69-814A019755CF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\CommonGameInstance.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\CommonLocalPlayer.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\CommonPlayerController.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\CommonPlayerInputKey.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\CommonUIExtensions.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\GameUIManagerSubsystem.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\GameUIPolicy.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\PrimaryGameLayout.h">
+      <Filter>Plugins\CommonGame\Source\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CommonGame\Source\Public\Actions">
+      <UniqueIdentifier>{94DB1903-781A-3BC3-A573-2232AF76BA4F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\Actions\AsyncAction_CreateWidgetAsync.h">
+      <Filter>Plugins\CommonGame\Source\Public\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\Actions\AsyncAction_PushContentToLayerForPlayer.h">
+      <Filter>Plugins\CommonGame\Source\Public\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\Actions\AsyncAction_ShowConfirmation.h">
+      <Filter>Plugins\CommonGame\Source\Public\Actions</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CommonGame\Source\Public\Messaging">
+      <UniqueIdentifier>{29A3035A-843A-3BAF-975F-CCF4B6DD656C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\Messaging\CommonGameDialog.h">
+      <Filter>Plugins\CommonGame\Source\Public\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonGame\Source\Public\Messaging\CommonMessagingSubsystem.h">
+      <Filter>Plugins\CommonGame\Source\Public\Messaging</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CommonLoadingScreen\Source">
+      <UniqueIdentifier>{FF66C1B8-4C61-36F7-AE5F-6D6DE98A5411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CommonLoadingScreen\Source\CommonLoadingScreen">
+      <UniqueIdentifier>{DFE78079-5913-3631-BB47-AE07011E2558}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\CommonLoadingScreen.Build.cs">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonLoadingScreen</Filter>
+    </None>
+    <Filter Include="Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Private">
+      <UniqueIdentifier>{14423034-913B-3C8B-86A1-53FB62F04B15}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Private\CommonLoadingScreenModule.cpp">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Private\CommonLoadingScreenSettings.cpp">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Private\CommonLoadingScreenSettings.h">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Private\LoadingScreenManager.cpp">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Public">
+      <UniqueIdentifier>{9F6D54A5-D0F3-3F70-8641-C29A22AA138B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Public\LoadingProcessInterface.h">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Public\LoadingProcessTask.cpp">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Public\LoadingProcessTask.h">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Public\LoadingScreenManager.h">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonLoadingScreen\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CommonLoadingScreen\Source\CommonStartupLoadingScreen">
+      <UniqueIdentifier>{57603DBF-2403-3F33-9A40-270BFB7D4B6B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CommonLoadingScreen\Source\CommonStartupLoadingScreen\CommonStartupLoadingScreen.Build.cs">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonStartupLoadingScreen</Filter>
+    </None>
+    <Filter Include="Plugins\CommonLoadingScreen\Source\CommonStartupLoadingScreen\Private">
+      <UniqueIdentifier>{9F7543D4-B9F8-3A75-B398-2BA25D8BCCFE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CommonLoadingScreen\Source\CommonStartupLoadingScreen\Private\CommonPreLoadScreen.cpp">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonStartupLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\CommonLoadingScreen\Source\CommonStartupLoadingScreen\Private\CommonPreLoadScreen.h">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonStartupLoadingScreen\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\CommonLoadingScreen\Source\CommonStartupLoadingScreen\Private\CommonStartupLoadingScreen.cpp">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonStartupLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonLoadingScreen\Source\CommonStartupLoadingScreen\Private\SCommonPreLoadingScreenWidget.cpp">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonStartupLoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\CommonLoadingScreen\Source\CommonStartupLoadingScreen\Private\SCommonPreLoadingScreenWidget.h">
+      <Filter>Plugins\CommonLoadingScreen\Source\CommonStartupLoadingScreen\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CommonUser\Source">
+      <UniqueIdentifier>{EEB044F2-392C-3506-9A79-6AB8BD3A1A6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CommonUser\Source\CommonUser">
+      <UniqueIdentifier>{02CB03AE-D248-3737-8859-DE3608D28AC0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CommonUser\Source\CommonUser\CommonUser.Build.cs">
+      <Filter>Plugins\CommonUser\Source\CommonUser</Filter>
+    </None>
+    <Filter Include="Plugins\CommonUser\Source\CommonUser\Private">
+      <UniqueIdentifier>{5D07534E-5D8C-3BD0-8EAA-69F91B8AA007}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CommonUser\Source\CommonUser\Private\AsyncAction_CommonUserInitialize.cpp">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonUser\Source\CommonUser\Private\CommonSessionSubsystem.cpp">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonUser\Source\CommonUser\Private\CommonUserModule.cpp">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonUser\Source\CommonUser\Private\CommonUserSubsystem.cpp">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CommonUser\Source\CommonUser\Private\CommonUserTypes.cpp">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\CommonUser\Source\CommonUser\Public">
+      <UniqueIdentifier>{2A5F42F9-EE12-3762-8F6F-3EF3B4635964}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CommonUser\Source\CommonUser\Public\AsyncAction_CommonUserInitialize.h">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonUser\Source\CommonUser\Public\CommonSessionSubsystem.h">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonUser\Source\CommonUser\Public\CommonUserModule.h">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonUser\Source\CommonUser\Public\CommonUserSubsystem.h">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CommonUser\Source\CommonUser\Public\CommonUserTypes.h">
+      <Filter>Plugins\CommonUser\Source\CommonUser\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameFeatures\ProjectPayday\Source">
+      <UniqueIdentifier>{F5C7A760-73A1-3856-9CB8-78860BDB9BE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameFeatures\ProjectPayday\Source\ProjectPaydayRuntime">
+      <UniqueIdentifier>{46FA406F-6212-33F7-9ECE-086E9E9B4521}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\ProjectPayday\Source\ProjectPaydayRuntime\ProjectPaydayRuntime.Build.cs">
+      <Filter>Plugins\GameFeatures\ProjectPayday\Source\ProjectPaydayRuntime</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\ProjectPayday\Source\ProjectPaydayRuntime\Private">
+      <UniqueIdentifier>{3C09B899-D196-3AB7-BAA4-608F1E6520E8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameFeatures\ProjectPayday\Source\ProjectPaydayRuntime\Private\ProjectPaydayRuntimeModule.cpp">
+      <Filter>Plugins\GameFeatures\ProjectPayday\Source\ProjectPaydayRuntime\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameFeatures\ProjectPayday\Source\ProjectPaydayRuntime\Public">
+      <UniqueIdentifier>{B3C2B24F-1AF4-3800-A55B-677B16597596}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ProjectPayday\Source\ProjectPaydayRuntime\Public\ProjectPaydayRuntimeModule.h">
+      <Filter>Plugins\GameFeatures\ProjectPayday\Source\ProjectPaydayRuntime\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameFeatures\ShooterCore\Source">
+      <UniqueIdentifier>{1D5EEBDA-9F49-3806-9C04-D5EF76BEE776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime">
+      <UniqueIdentifier>{B7E9F236-F594-3E94-BB6F-72ED7BE2B74B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\ShooterCoreRuntime.Build.cs">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime</Filter>
+    </None>
+    <Filter Include="Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private">
+      <UniqueIdentifier>{DCAF9736-74D5-372C-A975-755C2BFD62B8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\LyraWorldCollectable.cpp">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\ShooterCoreRuntimeModule.cpp">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\ShooterCoreRuntimeSettings.cpp">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\TDM_PlayerSpawningManagmentComponent.cpp">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\TDM_PlayerSpawningManagmentComponent.h">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\Accolades">
+      <UniqueIdentifier>{548601BE-D3AC-3BE8-823B-78414B486031}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\Accolades\LyraAccoladeDefinition.cpp">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\Accolades</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\Accolades\LyraAccoladeHostWidget.cpp">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\Accolades</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\Input">
+      <UniqueIdentifier>{911D188F-DC9B-3C9F-BB5D-E45A2D6B86CB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\Input\AimAssistInputModifier.cpp">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\Input\AimAssistTargetComponent.cpp">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\Input\AimAssistTargetManagerComponent.cpp">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\Input</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\MessageProcessors">
+      <UniqueIdentifier>{157B2A26-2508-31C8-B9BE-DD943A94610B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\MessageProcessors\AssistProcessor.cpp">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\MessageProcessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\MessageProcessors\ElimChainProcessor.cpp">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\MessageProcessors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\MessageProcessors\ElimStreakProcessor.cpp">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Private\MessageProcessors</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public">
+      <UniqueIdentifier>{5195F764-EB5C-33AA-A928-76073CD9AAAE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\LyraWorldCollectable.h">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\ShooterCoreRuntimeModule.h">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\ShooterCoreRuntimeSettings.h">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Accolades">
+      <UniqueIdentifier>{05049AB8-EDE5-3A67-9E32-F2F8C77F856E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Accolades\LyraAccoladeDefinition.h">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Accolades</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Accolades\LyraAccoladeHostWidget.h">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Accolades</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Input">
+      <UniqueIdentifier>{07D7539F-6810-39F0-A791-F06572A2F502}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Input\AimAssistInputModifier.h">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Input\AimAssistTargetComponent.h">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Input\AimAssistTargetManagerComponent.h">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Input\IAimAssistTargetInterface.h">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Input</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\MessageProcessors">
+      <UniqueIdentifier>{E89CD9FC-B99F-3C17-BC40-E7C450799461}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\MessageProcessors\AssistProcessor.h">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\MessageProcessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\MessageProcessors\ElimChainProcessor.h">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\MessageProcessors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\MessageProcessors\ElimStreakProcessor.h">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\MessageProcessors</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Messages">
+      <UniqueIdentifier>{27B99558-E195-370E-AE5F-F512DCD691E1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Messages\ControlPointStatusMessage.h">
+      <Filter>Plugins\GameFeatures\ShooterCore\Source\ShooterCoreRuntime\Public\Messages</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameplayMessageRouter\Source">
+      <UniqueIdentifier>{AD63915F-3CDB-3083-840D-0F0A56F9C437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageNodes">
+      <UniqueIdentifier>{8EBD47BD-95D7-305A-AE63-699A8AE0F4BE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\GameplayMessageNodes.Build.cs">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageNodes</Filter>
+    </None>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Private">
+      <UniqueIdentifier>{2AC0EA5E-EA15-3827-AF1D-E4E135289270}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Private\GameplayMessageNodesModule.cpp">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Private\K2Node_AsyncAction_ListenForGameplayMessages.cpp">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Public">
+      <UniqueIdentifier>{3B246B6A-8BBA-37C4-AFEE-E8B17D62C832}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Public\K2Node_AsyncAction_ListenForGameplayMessages.h">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageNodes\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime">
+      <UniqueIdentifier>{3801EBE5-749A-3CE3-ADEE-3AA54924F5F1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\GameplayMessageRuntime.Build.cs">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime</Filter>
+    </None>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private">
+      <UniqueIdentifier>{1392D215-555C-3BEE-A3A6-F4EBA97AD3C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private\GameFramework">
+      <UniqueIdentifier>{194EFB08-7285-3F27-BCC4-98CE90DAA6A9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private\GameFramework\AsyncAction_ListenForGameplayMessage.cpp">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private\GameFramework\GameplayMessageRuntime.cpp">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private\GameFramework\GameplayMessageSubsystem.cpp">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Private\GameFramework</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public">
+      <UniqueIdentifier>{97B6F166-C7DD-36D9-AAB3-083BD76DDE0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public\GameFramework">
+      <UniqueIdentifier>{48EFE913-C5C3-3058-B3DA-C4B7C5844910}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public\GameFramework\AsyncAction_ListenForGameplayMessage.h">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public\GameFramework\GameplayMessageSubsystem.h">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public\GameFramework\GameplayMessageTypes2.h">
+      <Filter>Plugins\GameplayMessageRouter\Source\GameplayMessageRuntime\Public\GameFramework</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSettings\Source">
+      <UniqueIdentifier>{FE501F5B-1D9B-3E42-AA81-1E1AD3EB9E74}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameSettings\Source\GameSettings.Build.cs">
+      <Filter>Plugins\GameSettings\Source</Filter>
+    </None>
+    <None Include="..\..\Plugins\GameSettings\Source\README.md">
+      <Filter>Plugins\GameSettings\Source</Filter>
+    </None>
+    <Filter Include="Plugins\GameSettings\Source\Private">
+      <UniqueIdentifier>{B75EA3BB-A42F-3DE8-BF6F-D368EADE2D60}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSetting.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingAction.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingCollection.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingFilterState.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingsModule.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingValue.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingValueDiscrete.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingValueDiscreteDynamic.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingValueScalar.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\GameSettingValueScalarDynamic.cpp">
+      <Filter>Plugins\GameSettings\Source\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSettings\Source\Private\DataSource">
+      <UniqueIdentifier>{17FB7AE8-6A4A-3A2A-A7B4-6FAF3E613C12}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\DataSource\GameSettingDataSourceDynamic.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\DataSource</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSettings\Source\Private\EditCondition">
+      <UniqueIdentifier>{871FA59A-918F-30AF-8C4D-8C65877A38EE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\EditCondition\WhenPlatformHasTrait.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\EditCondition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\EditCondition\WhenPlayingAsPrimaryPlayer.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\EditCondition</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSettings\Source\Private\Registry">
+      <UniqueIdentifier>{66FBEC6A-1B6C-3A71-A1C6-5A514825EDE0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Registry\GameSettingRegistry.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Registry\GameSettingRegistryChangeTracker.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Registry</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSettings\Source\Private\Widgets">
+      <UniqueIdentifier>{08C1F8AC-F0DB-332A-A769-10756370442E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\GameSettingDetailExtension.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\GameSettingDetailView.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\GameSettingListEntry.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\GameSettingListView.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\GameSettingPanel.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\GameSettingScreen.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\GameSettingVisualData.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\IGameSettingActionInterface.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSettings\Source\Private\Widgets\Misc">
+      <UniqueIdentifier>{E1DC6B24-D8C7-339E-8A68-DB7C20F36643}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Misc\GameSettingPressAnyKey.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Misc\GameSettingRotator.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Misc\KeyAlreadyBoundWarning.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Misc</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSettings\Source\Private\Widgets\Responsive">
+      <UniqueIdentifier>{D594ED39-E1B0-34B5-9277-E0D4D6738AE8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Responsive\GameResponsivePanel.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Responsive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Responsive\GameResponsivePanel.h">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Responsive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Responsive\GameResponsivePanelSlot.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Responsive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Responsive\GameResponsivePanelSlot.h">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Responsive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Responsive\SGameResponsivePanel.cpp">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Responsive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Private\Widgets\Responsive\SGameResponsivePanel.h">
+      <Filter>Plugins\GameSettings\Source\Private\Widgets\Responsive</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSettings\Source\Public">
+      <UniqueIdentifier>{2469736E-8B21-392B-8CC3-BEFEA0722EFE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSetting.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingAction.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingCollection.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingFilterState.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingRegistry.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingRegistryChangeTracker.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingValue.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingValueDiscrete.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingValueDiscreteDynamic.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingValueScalar.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\GameSettingValueScalarDynamic.h">
+      <Filter>Plugins\GameSettings\Source\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSettings\Source\Public\DataSource">
+      <UniqueIdentifier>{FCEFEC9D-1A19-3171-9E62-F8695412DA50}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\DataSource\GameSettingDataSource.h">
+      <Filter>Plugins\GameSettings\Source\Public\DataSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\DataSource\GameSettingDataSourceDynamic.h">
+      <Filter>Plugins\GameSettings\Source\Public\DataSource</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSettings\Source\Public\EditCondition">
+      <UniqueIdentifier>{4A32E238-256E-349C-9FED-407796717EC0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\EditCondition\WhenCondition.h">
+      <Filter>Plugins\GameSettings\Source\Public\EditCondition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\EditCondition\WhenPlatformHasTrait.h">
+      <Filter>Plugins\GameSettings\Source\Public\EditCondition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\EditCondition\WhenPlayingAsPrimaryPlayer.h">
+      <Filter>Plugins\GameSettings\Source\Public\EditCondition</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSettings\Source\Public\Widgets">
+      <UniqueIdentifier>{7CE2C7B0-8061-3ECC-9262-F9566134EABE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\GameSettingDetailExtension.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\GameSettingDetailView.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\GameSettingListEntry.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\GameSettingListView.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\GameSettingPanel.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\GameSettingScreen.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\GameSettingVisualData.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\IGameSettingActionInterface.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSettings\Source\Public\Widgets\Misc">
+      <UniqueIdentifier>{04546906-1A99-3224-B2E2-8F208F21CF55}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\Misc\GameSettingPressAnyKey.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\Misc\GameSettingRotator.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSettings\Source\Public\Widgets\Misc\KeyAlreadyBoundWarning.h">
+      <Filter>Plugins\GameSettings\Source\Public\Widgets\Misc</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSubtitles\Source">
+      <UniqueIdentifier>{374F1D78-64B1-375F-8C2C-18AFFBE76E01}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\GameSubtitles\Source\GameSubtitles.Build.cs">
+      <Filter>Plugins\GameSubtitles\Source</Filter>
+    </None>
+    <Filter Include="Plugins\GameSubtitles\Source\Private">
+      <UniqueIdentifier>{EBF2FBC1-F095-37DF-9550-851CD524EC56}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSubtitles\Source\Private\GameSubtitlesModule.cpp">
+      <Filter>Plugins\GameSubtitles\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSubtitles\Source\Private\SubtitleDisplaySubsystem.cpp">
+      <Filter>Plugins\GameSubtitles\Source\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSubtitles\Source\Private\Players">
+      <UniqueIdentifier>{A69F777A-60EC-3474-BFE7-FFC5AAA04D45}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSubtitles\Source\Private\Players\MediaSubtitlesPlayer.cpp">
+      <Filter>Plugins\GameSubtitles\Source\Private\Players</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSubtitles\Source\Private\Widgets">
+      <UniqueIdentifier>{4A07C5BB-AAED-33DF-88CC-7316D25E1F6A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\GameSubtitles\Source\Private\Widgets\SSubtitleDisplay.cpp">
+      <Filter>Plugins\GameSubtitles\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\GameSubtitles\Source\Private\Widgets\SubtitleDisplay.cpp">
+      <Filter>Plugins\GameSubtitles\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\GameSubtitles\Source\Public">
+      <UniqueIdentifier>{5857BC30-C5E1-343D-91E3-013972747D45}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSubtitles\Source\Public\SubtitleDisplayOptions.h">
+      <Filter>Plugins\GameSubtitles\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSubtitles\Source\Public\SubtitleDisplaySubsystem.h">
+      <Filter>Plugins\GameSubtitles\Source\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSubtitles\Source\Public\Players">
+      <UniqueIdentifier>{77C12756-A04A-3E08-952A-E35A66465B67}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSubtitles\Source\Public\Players\MediaSubtitlesPlayer.h">
+      <Filter>Plugins\GameSubtitles\Source\Public\Players</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\GameSubtitles\Source\Public\Widgets">
+      <UniqueIdentifier>{3992A29B-E8E6-324A-90E8-2379B39435DF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\GameSubtitles\Source\Public\Widgets\SSubtitleDisplay.h">
+      <Filter>Plugins\GameSubtitles\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\GameSubtitles\Source\Public\Widgets\SubtitleDisplay.h">
+      <Filter>Plugins\GameSubtitles\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\LyraExtTool\Source">
+      <UniqueIdentifier>{8E64AE3E-D4DD-32FB-8828-CF4B76F236AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\LyraExtTool\Source\LyraExtTool">
+      <UniqueIdentifier>{6CA2E96C-8B41-3ED7-9FC2-F14C8CFE8A3A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LyraExtTool\Source\LyraExtTool\LyraExtTool.Build.cs">
+      <Filter>Plugins\LyraExtTool\Source\LyraExtTool</Filter>
+    </None>
+    <Filter Include="Plugins\LyraExtTool\Source\LyraExtTool\Private">
+      <UniqueIdentifier>{D2E1D98F-5093-3D41-8692-394C42CB725E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\LyraExtTool\Source\LyraExtTool\Private\BPFunctionLibrary.cpp">
+      <Filter>Plugins\LyraExtTool\Source\LyraExtTool\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LyraExtTool\Source\LyraExtTool\Private\LyraExtTool.cpp">
+      <Filter>Plugins\LyraExtTool\Source\LyraExtTool\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\LyraExtTool\Source\LyraExtTool\Public">
+      <UniqueIdentifier>{57E69474-8ACB-3E25-BD4A-61C0D499A90C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\LyraExtTool\Source\LyraExtTool\Public\BPFunctionLibrary.h">
+      <Filter>Plugins\LyraExtTool\Source\LyraExtTool\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LyraExtTool\Source\LyraExtTool\Public\LyraExtTool.h">
+      <Filter>Plugins\LyraExtTool\Source\LyraExtTool\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\ModularGameplayActors\Source">
+      <UniqueIdentifier>{D2A7373A-5074-3627-B395-44D580887335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ModularGameplayActors\Source\ModularGameplayActors">
+      <UniqueIdentifier>{BB71DF83-D340-3BFB-8444-4117EB3288C8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\ModularGameplayActors.Build.cs">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors</Filter>
+    </None>
+    <Filter Include="Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private">
+      <UniqueIdentifier>{B8B90E7E-AD5A-3B0C-A684-BFAC92E94C5B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularAIController.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularCharacter.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularGameMode.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularGameplayActorsModule.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularGameState.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularPawn.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularPlayerController.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private\ModularPlayerState.cpp">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public">
+      <UniqueIdentifier>{2CE162FB-CFBE-3D0B-A1F3-D84F43D64075}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularAIController.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularCharacter.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularGameMode.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularGameState.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularPawn.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularPlayerController.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public\ModularPlayerState.h">
+      <Filter>Plugins\ModularGameplayActors\Source\ModularGameplayActors\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\PocketWorlds\Source">
+      <UniqueIdentifier>{A403380B-55B8-30CE-82E6-E9025B256D27}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\PocketWorlds\Source\PocketWorlds.Build.cs">
+      <Filter>Plugins\PocketWorlds\Source</Filter>
+    </None>
+    <Filter Include="Plugins\PocketWorlds\Source\Private">
+      <UniqueIdentifier>{BD661968-823C-3FC1-9F34-1EB9203ADFF3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\PocketWorlds\Source\Private\PocketCapture.cpp">
+      <Filter>Plugins\PocketWorlds\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\PocketWorlds\Source\Private\PocketCaptureSubsystem.cpp">
+      <Filter>Plugins\PocketWorlds\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\PocketWorlds\Source\Private\PocketLevel.cpp">
+      <Filter>Plugins\PocketWorlds\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\PocketWorlds\Source\Private\PocketLevelInstance.cpp">
+      <Filter>Plugins\PocketWorlds\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\PocketWorlds\Source\Private\PocketLevelSystem.cpp">
+      <Filter>Plugins\PocketWorlds\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\PocketWorlds\Source\Private\PocketWorldsModule.cpp">
+      <Filter>Plugins\PocketWorlds\Source\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\PocketWorlds\Source\Public">
+      <UniqueIdentifier>{30B5D58F-6861-3EC8-8458-AB0E1413E3C3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\PocketWorlds\Source\Public\PocketCapture.h">
+      <Filter>Plugins\PocketWorlds\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\PocketWorlds\Source\Public\PocketCaptureSubsystem.h">
+      <Filter>Plugins\PocketWorlds\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\PocketWorlds\Source\Public\PocketLevel.h">
+      <Filter>Plugins\PocketWorlds\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\PocketWorlds\Source\Public\PocketLevelInstance.h">
+      <Filter>Plugins\PocketWorlds\Source\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\PocketWorlds\Source\Public\PocketLevelSystem.h">
+      <Filter>Plugins\PocketWorlds\Source\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UIExtension\Source">
+      <UniqueIdentifier>{7E1E7DD8-065F-3738-A245-78BD7BF6C2B3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UIExtension\Source\UIExtension.Build.cs">
+      <Filter>Plugins\UIExtension\Source</Filter>
+    </None>
+    <Filter Include="Plugins\UIExtension\Source\Private">
+      <UniqueIdentifier>{AFA517AA-1E6A-3390-87E3-9BF368D4A878}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UIExtension\Source\Private\LogUIExtension.cpp">
+      <Filter>Plugins\UIExtension\Source\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UIExtension\Source\Private\LogUIExtension.h">
+      <Filter>Plugins\UIExtension\Source\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\UIExtension\Source\Private\UIExtensionModule.cpp">
+      <Filter>Plugins\UIExtension\Source\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UIExtension\Source\Private\UIExtensionSystem.cpp">
+      <Filter>Plugins\UIExtension\Source\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UIExtension\Source\Private\Widgets">
+      <UniqueIdentifier>{5288CCC3-2E87-325E-AA36-F31BFA440166}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UIExtension\Source\Private\Widgets\UIExtensionPointWidget.cpp">
+      <Filter>Plugins\UIExtension\Source\Private\Widgets</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UIExtension\Source\Public">
+      <UniqueIdentifier>{83E81348-D365-398F-81B5-B4A94BD99AC8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UIExtension\Source\Public\UIExtensionSystem.h">
+      <Filter>Plugins\UIExtension\Source\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UIExtension\Source\Public\Widgets">
+      <UniqueIdentifier>{07F2094B-4AD1-3D22-B36B-705DA223814C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UIExtension\Source\Public\Widgets\UIExtensionPointWidget.h">
+      <Filter>Plugins\UIExtension\Source\Public\Widgets</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraEditor">
+      <UniqueIdentifier>{9CC42581-BBB3-370C-8F79-92A499FEC053}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LyraEditor\LyraEditor.Build.cs">
+      <Filter>Source\LyraEditor</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LyraEditor\LyraEditor.cpp">
+      <Filter>Source\LyraEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraEditor\LyraEditor.h">
+      <Filter>Source\LyraEditor</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraEditor\LyraEditorEngine.cpp">
+      <Filter>Source\LyraEditor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraEditor\LyraEditorEngine.h">
+      <Filter>Source\LyraEditor</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraEditor\Commandlets">
+      <UniqueIdentifier>{27EDA920-58A9-306D-8564-45D50DBE1EC9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraEditor\Commandlets\ContentValidationCommandlet.cpp">
+      <Filter>Source\LyraEditor\Commandlets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraEditor\Commandlets\ContentValidationCommandlet.h">
+      <Filter>Source\LyraEditor\Commandlets</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraEditor\Private">
+      <UniqueIdentifier>{67BEF010-BB10-3E77-8047-E9A3D5E1106D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraEditor\Private\AssetTypeActions_LyraContextEffectsLibrary.cpp">
+      <Filter>Source\LyraEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraEditor\Private\AssetTypeActions_LyraContextEffectsLibrary.h">
+      <Filter>Source\LyraEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraEditor\Private\GameEditorStyle.cpp">
+      <Filter>Source\LyraEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraEditor\Private\GameEditorStyle.h">
+      <Filter>Source\LyraEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraEditor\Private\LyraContextEffectsLibraryFactory.cpp">
+      <Filter>Source\LyraEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraEditor\Private\LyraContextEffectsLibraryFactory.h">
+      <Filter>Source\LyraEditor\Private</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraEditor\Utilities">
+      <UniqueIdentifier>{0F751C19-217D-3C35-8E56-FD8D75B0B5A5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraEditor\Utilities\CheckChaosMeshCollision.cpp">
+      <Filter>Source\LyraEditor\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LyraEditor\Utilities\CreateRedirectorPackage.cpp">
+      <Filter>Source\LyraEditor\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LyraEditor\Utilities\DiffCollectionReferenceSupport.cpp">
+      <Filter>Source\LyraEditor\Utilities</Filter>
+    </ClCompile>
+    <Filter Include="Source\LyraEditor\Validation">
+      <UniqueIdentifier>{20DE11E1-C777-3282-85CB-5C5AE4C8E596}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraEditor\Validation\EditorValidator.cpp">
+      <Filter>Source\LyraEditor\Validation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraEditor\Validation\EditorValidator.h">
+      <Filter>Source\LyraEditor\Validation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraEditor\Validation\EditorValidator_Blueprints.cpp">
+      <Filter>Source\LyraEditor\Validation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraEditor\Validation\EditorValidator_Blueprints.h">
+      <Filter>Source\LyraEditor\Validation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraEditor\Validation\EditorValidator_Load.cpp">
+      <Filter>Source\LyraEditor\Validation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraEditor\Validation\EditorValidator_Load.h">
+      <Filter>Source\LyraEditor\Validation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraEditor\Validation\EditorValidator_MaterialFunctions.cpp">
+      <Filter>Source\LyraEditor\Validation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraEditor\Validation\EditorValidator_MaterialFunctions.h">
+      <Filter>Source\LyraEditor\Validation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraEditor\Validation\EditorValidator_SourceControl.cpp">
+      <Filter>Source\LyraEditor\Validation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraEditor\Validation\EditorValidator_SourceControl.h">
+      <Filter>Source\LyraEditor\Validation</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame">
+      <UniqueIdentifier>{A3FC8886-CA9B-3782-8D1C-AC0689F5C215}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\LyraGame\LyraGame.Build.cs">
+      <Filter>Source\LyraGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\LyraGame\LyraGameModule.cpp">
+      <Filter>Source\LyraGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LyraGame\LyraGameplayTags.cpp">
+      <Filter>Source\LyraGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\LyraGameplayTags.h">
+      <Filter>Source\LyraGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\LyraLogChannels.cpp">
+      <Filter>Source\LyraGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\LyraLogChannels.h">
+      <Filter>Source\LyraGame</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\LyraGame\README.md">
+      <Filter>Source\LyraGame</Filter>
+    </None>
+    <Filter Include="Source\LyraGame\AbilitySystem">
+      <UniqueIdentifier>{B56B7526-A38C-3AF3-B240-FFBF03CB58E3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\LyraAbilitySet.cpp">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\LyraAbilitySet.h">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\LyraAbilitySourceInterface.cpp">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\LyraAbilitySourceInterface.h">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\LyraAbilitySystemComponent.cpp">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\LyraAbilitySystemComponent.h">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\LyraAbilitySystemGlobals.cpp">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\LyraAbilitySystemGlobals.h">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\LyraAbilityTagRelationshipMapping.cpp">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\LyraAbilityTagRelationshipMapping.h">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\LyraGameplayAbilityTargetData_SingleTargetHit.cpp">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\LyraGameplayAbilityTargetData_SingleTargetHit.h">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\LyraGameplayCueManager.cpp">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\LyraGameplayCueManager.h">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\LyraGameplayEffectContext.cpp">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\LyraGameplayEffectContext.h">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\LyraGlobalAbilitySystem.cpp">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\LyraGlobalAbilitySystem.h">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\LyraTaggedActor.cpp">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\LyraTaggedActor.h">
+      <Filter>Source\LyraGame\AbilitySystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\AbilitySystem\Abilities">
+      <UniqueIdentifier>{6BE31323-B60C-3F2D-B69F-86A76B75CFA0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraAbilityCost.h">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraAbilityCost_InventoryItem.cpp">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraAbilityCost_InventoryItem.h">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraAbilityCost_ItemTagStack.cpp">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraAbilityCost_ItemTagStack.h">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraAbilityCost_PlayerTagStack.cpp">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraAbilityCost_PlayerTagStack.h">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraAbilitySimpleFailureMessage.h">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraGameplayAbility.cpp">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraGameplayAbility.h">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraGameplayAbility_Death.cpp">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraGameplayAbility_Death.h">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraGameplayAbility_Jump.cpp">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraGameplayAbility_Jump.h">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraGameplayAbility_Reset.cpp">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Abilities\LyraGameplayAbility_Reset.h">
+      <Filter>Source\LyraGame\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\AbilitySystem\Attributes">
+      <UniqueIdentifier>{DCC80C77-CBCF-3740-97B7-EEA5F49BE4A6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\Attributes\LyraAttributeSet.cpp">
+      <Filter>Source\LyraGame\AbilitySystem\Attributes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Attributes\LyraAttributeSet.h">
+      <Filter>Source\LyraGame\AbilitySystem\Attributes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\Attributes\LyraCombatSet.cpp">
+      <Filter>Source\LyraGame\AbilitySystem\Attributes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Attributes\LyraCombatSet.h">
+      <Filter>Source\LyraGame\AbilitySystem\Attributes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\Attributes\LyraHealthSet.cpp">
+      <Filter>Source\LyraGame\AbilitySystem\Attributes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Attributes\LyraHealthSet.h">
+      <Filter>Source\LyraGame\AbilitySystem\Attributes</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\AbilitySystem\Executions">
+      <UniqueIdentifier>{05BF1945-8E46-3F65-BA9A-9BA79F5D9DDE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\Executions\LyraDamageExecution.cpp">
+      <Filter>Source\LyraGame\AbilitySystem\Executions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Executions\LyraDamageExecution.h">
+      <Filter>Source\LyraGame\AbilitySystem\Executions</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\Executions\LyraHealExecution.cpp">
+      <Filter>Source\LyraGame\AbilitySystem\Executions</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Executions\LyraHealExecution.h">
+      <Filter>Source\LyraGame\AbilitySystem\Executions</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\AbilitySystem\Phases">
+      <UniqueIdentifier>{E2F5F51C-E9C5-3CB2-A94A-64E124461466}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\Phases\LyraGamePhaseAbility.cpp">
+      <Filter>Source\LyraGame\AbilitySystem\Phases</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Phases\LyraGamePhaseAbility.h">
+      <Filter>Source\LyraGame\AbilitySystem\Phases</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Phases\LyraGamePhaseLog.h">
+      <Filter>Source\LyraGame\AbilitySystem\Phases</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\AbilitySystem\Phases\LyraGamePhaseSubsystem.cpp">
+      <Filter>Source\LyraGame\AbilitySystem\Phases</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\AbilitySystem\Phases\LyraGamePhaseSubsystem.h">
+      <Filter>Source\LyraGame\AbilitySystem\Phases</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Animation">
+      <UniqueIdentifier>{B00EB2BB-F99C-3F5B-B2E4-0D7B1D857B9E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Animation\LyraAnimInstance.cpp">
+      <Filter>Source\LyraGame\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Animation\LyraAnimInstance.h">
+      <Filter>Source\LyraGame\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Audio">
+      <UniqueIdentifier>{DBE2ACBD-4AA3-3EB3-A20D-F0C462134802}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Audio\LyraAudioMixEffectsSubsystem.cpp">
+      <Filter>Source\LyraGame\Audio</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Audio\LyraAudioMixEffectsSubsystem.h">
+      <Filter>Source\LyraGame\Audio</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Audio\LyraAudioSettings.cpp">
+      <Filter>Source\LyraGame\Audio</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Audio\LyraAudioSettings.h">
+      <Filter>Source\LyraGame\Audio</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Camera">
+      <UniqueIdentifier>{B2028517-A8D7-38CC-AD34-3CD0B8E0682C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\LyraGame\Camera\LyraCameraAssistInterface.h">
+      <Filter>Source\LyraGame\Camera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Camera\LyraCameraComponent.cpp">
+      <Filter>Source\LyraGame\Camera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Camera\LyraCameraComponent.h">
+      <Filter>Source\LyraGame\Camera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Camera\LyraCameraMode.cpp">
+      <Filter>Source\LyraGame\Camera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Camera\LyraCameraMode.h">
+      <Filter>Source\LyraGame\Camera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Camera\LyraCameraMode_ThirdPerson.cpp">
+      <Filter>Source\LyraGame\Camera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Camera\LyraCameraMode_ThirdPerson.h">
+      <Filter>Source\LyraGame\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LyraGame\Camera\LyraPenetrationAvoidanceFeeler.h">
+      <Filter>Source\LyraGame\Camera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Camera\LyraPlayerCameraManager.cpp">
+      <Filter>Source\LyraGame\Camera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Camera\LyraPlayerCameraManager.h">
+      <Filter>Source\LyraGame\Camera</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Camera\LyraUICameraManagerComponent.cpp">
+      <Filter>Source\LyraGame\Camera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Camera\LyraUICameraManagerComponent.h">
+      <Filter>Source\LyraGame\Camera</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Character">
+      <UniqueIdentifier>{A73BAB46-FF08-3C19-9F8B-790B3DCDF250}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Character\LyraCharacter.cpp">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Character\LyraCharacter.h">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Character\LyraCharacterMovementComponent.cpp">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Character\LyraCharacterMovementComponent.h">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Character\LyraCharacterWithAbilities.cpp">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Character\LyraCharacterWithAbilities.h">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Character\LyraHealthComponent.cpp">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Character\LyraHealthComponent.h">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Character\LyraHeroComponent.cpp">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Character\LyraHeroComponent.h">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Character\LyraPawn.cpp">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Character\LyraPawn.h">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Character\LyraPawnData.cpp">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Character\LyraPawnData.h">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Character\LyraPawnExtensionComponent.cpp">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Character\LyraPawnExtensionComponent.h">
+      <Filter>Source\LyraGame\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Cosmetics">
+      <UniqueIdentifier>{1F047A22-067E-37DC-AF76-EC315E015870}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\LyraGame\Cosmetics\LyraCharacterPartTypes.h">
+      <Filter>Source\LyraGame\Cosmetics</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Cosmetics\LyraControllerComponent_CharacterParts.cpp">
+      <Filter>Source\LyraGame\Cosmetics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Cosmetics\LyraControllerComponent_CharacterParts.h">
+      <Filter>Source\LyraGame\Cosmetics</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Cosmetics\LyraCosmeticAnimationTypes.cpp">
+      <Filter>Source\LyraGame\Cosmetics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Cosmetics\LyraCosmeticAnimationTypes.h">
+      <Filter>Source\LyraGame\Cosmetics</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Cosmetics\LyraCosmeticCheats.cpp">
+      <Filter>Source\LyraGame\Cosmetics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Cosmetics\LyraCosmeticCheats.h">
+      <Filter>Source\LyraGame\Cosmetics</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Cosmetics\LyraCosmeticDeveloperSettings.cpp">
+      <Filter>Source\LyraGame\Cosmetics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Cosmetics\LyraCosmeticDeveloperSettings.h">
+      <Filter>Source\LyraGame\Cosmetics</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Cosmetics\LyraPawnComponent_CharacterParts.cpp">
+      <Filter>Source\LyraGame\Cosmetics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Cosmetics\LyraPawnComponent_CharacterParts.h">
+      <Filter>Source\LyraGame\Cosmetics</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Development">
+      <UniqueIdentifier>{B817639D-7025-3D14-AD76-4DA6D403436C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Development\LyraBotCheats.cpp">
+      <Filter>Source\LyraGame\Development</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Development\LyraBotCheats.h">
+      <Filter>Source\LyraGame\Development</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Development\LyraDeveloperSettings.cpp">
+      <Filter>Source\LyraGame\Development</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Development\LyraDeveloperSettings.h">
+      <Filter>Source\LyraGame\Development</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Development\LyraPlatformEmulationSettings.cpp">
+      <Filter>Source\LyraGame\Development</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Development\LyraPlatformEmulationSettings.h">
+      <Filter>Source\LyraGame\Development</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Equipment">
+      <UniqueIdentifier>{62C11174-55EB-3A77-BBBB-C078D6AD7CB5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Equipment\LyraEquipmentDefinition.cpp">
+      <Filter>Source\LyraGame\Equipment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Equipment\LyraEquipmentDefinition.h">
+      <Filter>Source\LyraGame\Equipment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Equipment\LyraEquipmentInstance.cpp">
+      <Filter>Source\LyraGame\Equipment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Equipment\LyraEquipmentInstance.h">
+      <Filter>Source\LyraGame\Equipment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Equipment\LyraEquipmentManagerComponent.cpp">
+      <Filter>Source\LyraGame\Equipment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Equipment\LyraEquipmentManagerComponent.h">
+      <Filter>Source\LyraGame\Equipment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Equipment\LyraGameplayAbility_FromEquipment.cpp">
+      <Filter>Source\LyraGame\Equipment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Equipment\LyraGameplayAbility_FromEquipment.h">
+      <Filter>Source\LyraGame\Equipment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Equipment\LyraPickupDefinition.cpp">
+      <Filter>Source\LyraGame\Equipment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Equipment\LyraPickupDefinition.h">
+      <Filter>Source\LyraGame\Equipment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Equipment\LyraQuickBarComponent.cpp">
+      <Filter>Source\LyraGame\Equipment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Equipment\LyraQuickBarComponent.h">
+      <Filter>Source\LyraGame\Equipment</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Feedback">
+      <UniqueIdentifier>{E5DB25B1-4D03-3A3B-81F8-330D16AB2FBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\LyraGame\Feedback\ContextEffects">
+      <UniqueIdentifier>{4A9D0360-C9BD-3946-9AA2-B2434FC17986}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Feedback\ContextEffects\AnimNotify_LyraContextEffects.cpp">
+      <Filter>Source\LyraGame\Feedback\ContextEffects</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Feedback\ContextEffects\AnimNotify_LyraContextEffects.h">
+      <Filter>Source\LyraGame\Feedback\ContextEffects</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Feedback\ContextEffects\LyraContextEffectComponent.cpp">
+      <Filter>Source\LyraGame\Feedback\ContextEffects</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Feedback\ContextEffects\LyraContextEffectComponent.h">
+      <Filter>Source\LyraGame\Feedback\ContextEffects</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Feedback\ContextEffects\LyraContextEffectsInterface.cpp">
+      <Filter>Source\LyraGame\Feedback\ContextEffects</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Feedback\ContextEffects\LyraContextEffectsInterface.h">
+      <Filter>Source\LyraGame\Feedback\ContextEffects</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Feedback\ContextEffects\LyraContextEffectsLibrary.cpp">
+      <Filter>Source\LyraGame\Feedback\ContextEffects</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Feedback\ContextEffects\LyraContextEffectsLibrary.h">
+      <Filter>Source\LyraGame\Feedback\ContextEffects</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Feedback\ContextEffects\LyraContextEffectsSubsystem.cpp">
+      <Filter>Source\LyraGame\Feedback\ContextEffects</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Feedback\ContextEffects\LyraContextEffectsSubsystem.h">
+      <Filter>Source\LyraGame\Feedback\ContextEffects</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Feedback\NumberPops">
+      <UniqueIdentifier>{F8A0636D-57EA-375B-9AED-6633DDA627E9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Feedback\NumberPops\LyraDamagePopStyle.cpp">
+      <Filter>Source\LyraGame\Feedback\NumberPops</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Feedback\NumberPops\LyraDamagePopStyle.h">
+      <Filter>Source\LyraGame\Feedback\NumberPops</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LyraGame\Feedback\NumberPops\LyraDamagePopStyleNiagara.h">
+      <Filter>Source\LyraGame\Feedback\NumberPops</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Feedback\NumberPops\LyraNumberPopComponent.cpp">
+      <Filter>Source\LyraGame\Feedback\NumberPops</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Feedback\NumberPops\LyraNumberPopComponent.h">
+      <Filter>Source\LyraGame\Feedback\NumberPops</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Feedback\NumberPops\LyraNumberPopComponent_MeshText.cpp">
+      <Filter>Source\LyraGame\Feedback\NumberPops</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Feedback\NumberPops\LyraNumberPopComponent_MeshText.h">
+      <Filter>Source\LyraGame\Feedback\NumberPops</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Feedback\NumberPops\LyraNumberPopComponent_NiagaraText.cpp">
+      <Filter>Source\LyraGame\Feedback\NumberPops</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Feedback\NumberPops\LyraNumberPopComponent_NiagaraText.h">
+      <Filter>Source\LyraGame\Feedback\NumberPops</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\GameFeatures">
+      <UniqueIdentifier>{46E200C2-E2A0-3496-A4B1-27B0279722BE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_AddAbilities.cpp">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_AddAbilities.h">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_AddGameplayCuePath.cpp">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_AddGameplayCuePath.h">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_AddInputBinding.cpp">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_AddInputBinding.h">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_AddInputConfig.cpp">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_AddInputConfig.h">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_AddInputContextMapping.cpp">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_AddInputContextMapping.h">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_AddWidget.cpp">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_AddWidget.h">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_SplitscreenConfig.cpp">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_SplitscreenConfig.h">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_WorldActionBase.cpp">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameFeatures\GameFeatureAction_WorldActionBase.h">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameFeatures\LyraGameFeaturePolicy.cpp">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameFeatures\LyraGameFeaturePolicy.h">
+      <Filter>Source\LyraGame\GameFeatures</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\GameModes">
+      <UniqueIdentifier>{1DC15754-5DD9-3EE7-98AF-558320589CDB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\GameModes\AsyncAction_ExperienceReady.cpp">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameModes\AsyncAction_ExperienceReady.h">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameModes\LyraBotCreationComponent.cpp">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameModes\LyraBotCreationComponent.h">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameModes\LyraExperienceActionSet.cpp">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameModes\LyraExperienceActionSet.h">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameModes\LyraExperienceDefinition.cpp">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameModes\LyraExperienceDefinition.h">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameModes\LyraExperienceManager.cpp">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameModes\LyraExperienceManager.h">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameModes\LyraExperienceManagerComponent.cpp">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameModes\LyraExperienceManagerComponent.h">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameModes\LyraGameMode.cpp">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameModes\LyraGameMode.h">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameModes\LyraGameState.cpp">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameModes\LyraGameState.h">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameModes\LyraUserFacingExperienceDefinition.cpp">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameModes\LyraUserFacingExperienceDefinition.h">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\GameModes\LyraWorldSettings.cpp">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\GameModes\LyraWorldSettings.h">
+      <Filter>Source\LyraGame\GameModes</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Hotfix">
+      <UniqueIdentifier>{A35E9FFB-45D7-36D6-95A6-009003D0A3CE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Hotfix\LyraHotfixManager.cpp">
+      <Filter>Source\LyraGame\Hotfix</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Hotfix\LyraHotfixManager.h">
+      <Filter>Source\LyraGame\Hotfix</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Hotfix\LyraRuntimeOptions.cpp">
+      <Filter>Source\LyraGame\Hotfix</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Hotfix\LyraRuntimeOptions.h">
+      <Filter>Source\LyraGame\Hotfix</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Hotfix\LyraTextHotfixConfig.cpp">
+      <Filter>Source\LyraGame\Hotfix</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Hotfix\LyraTextHotfixConfig.h">
+      <Filter>Source\LyraGame\Hotfix</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Input">
+      <UniqueIdentifier>{4B722FB0-94C9-39BE-9CC8-8A3E6990131B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Input\LyraAimSensitivityData.cpp">
+      <Filter>Source\LyraGame\Input</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Input\LyraAimSensitivityData.h">
+      <Filter>Source\LyraGame\Input</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Input\LyraInputComponent.cpp">
+      <Filter>Source\LyraGame\Input</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Input\LyraInputComponent.h">
+      <Filter>Source\LyraGame\Input</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Input\LyraInputConfig.cpp">
+      <Filter>Source\LyraGame\Input</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Input\LyraInputConfig.h">
+      <Filter>Source\LyraGame\Input</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Input\LyraInputModifiers.cpp">
+      <Filter>Source\LyraGame\Input</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Input\LyraInputModifiers.h">
+      <Filter>Source\LyraGame\Input</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Input\LyraMappableConfigPair.cpp">
+      <Filter>Source\LyraGame\Input</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Input\LyraMappableConfigPair.h">
+      <Filter>Source\LyraGame\Input</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Interaction">
+      <UniqueIdentifier>{E2AEE658-B4F5-3694-98A0-5E960176F96C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\LyraGame\Interaction\IInteractableTarget.h">
+      <Filter>Source\LyraGame\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LyraGame\Interaction\IInteractionInstigator.h">
+      <Filter>Source\LyraGame\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LyraGame\Interaction\InteractionOption.h">
+      <Filter>Source\LyraGame\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LyraGame\Interaction\InteractionQuery.h">
+      <Filter>Source\LyraGame\Interaction</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Interaction\InteractionStatics.cpp">
+      <Filter>Source\LyraGame\Interaction</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Interaction\InteractionStatics.h">
+      <Filter>Source\LyraGame\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LyraGame\Interaction\LyraInteractionDurationMessage.h">
+      <Filter>Source\LyraGame\Interaction</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Interaction\Abilities">
+      <UniqueIdentifier>{ACD56667-A59C-3552-9119-28875A910303}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Interaction\Abilities\GameplayAbilityTargetActor_Interact.cpp">
+      <Filter>Source\LyraGame\Interaction\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Interaction\Abilities\GameplayAbilityTargetActor_Interact.h">
+      <Filter>Source\LyraGame\Interaction\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Interaction\Abilities\LyraGameplayAbility_Interact.cpp">
+      <Filter>Source\LyraGame\Interaction\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Interaction\Abilities\LyraGameplayAbility_Interact.h">
+      <Filter>Source\LyraGame\Interaction\Abilities</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Interaction\Tasks">
+      <UniqueIdentifier>{177DD0DF-936F-3BD0-8763-CC496671BB88}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Interaction\Tasks\AbilityTask_GrantNearbyInteraction.cpp">
+      <Filter>Source\LyraGame\Interaction\Tasks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Interaction\Tasks\AbilityTask_GrantNearbyInteraction.h">
+      <Filter>Source\LyraGame\Interaction\Tasks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Interaction\Tasks\AbilityTask_WaitForInteractableTargets.cpp">
+      <Filter>Source\LyraGame\Interaction\Tasks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Interaction\Tasks\AbilityTask_WaitForInteractableTargets.h">
+      <Filter>Source\LyraGame\Interaction\Tasks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Interaction\Tasks\AbilityTask_WaitForInteractableTargets_SingleLineTrace.cpp">
+      <Filter>Source\LyraGame\Interaction\Tasks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Interaction\Tasks\AbilityTask_WaitForInteractableTargets_SingleLineTrace.h">
+      <Filter>Source\LyraGame\Interaction\Tasks</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Inventory">
+      <UniqueIdentifier>{CFD775CD-3F33-35A1-BEFB-A933960C5A4E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Inventory\InventoryFragment_EquippableItem.cpp">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Inventory\InventoryFragment_EquippableItem.h">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Inventory\InventoryFragment_PickupIcon.cpp">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Inventory\InventoryFragment_PickupIcon.h">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Inventory\InventoryFragment_QuickBarIcon.cpp">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Inventory\InventoryFragment_QuickBarIcon.h">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Inventory\InventoryFragment_SetStats.cpp">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Inventory\InventoryFragment_SetStats.h">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Inventory\IPickupable.cpp">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Inventory\IPickupable.h">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Inventory\LyraInventoryItemDefinition.cpp">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Inventory\LyraInventoryItemDefinition.h">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Inventory\LyraInventoryItemInstance.cpp">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Inventory\LyraInventoryItemInstance.h">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Inventory\LyraInventoryManagerComponent.cpp">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Inventory\LyraInventoryManagerComponent.h">
+      <Filter>Source\LyraGame\Inventory</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Messages">
+      <UniqueIdentifier>{2A9E4445-137C-390C-82BC-AD7C2C6573BE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Messages\GameplayMessageProcessor.cpp">
+      <Filter>Source\LyraGame\Messages</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Messages\GameplayMessageProcessor.h">
+      <Filter>Source\LyraGame\Messages</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Messages\LyraNotificationMessage.cpp">
+      <Filter>Source\LyraGame\Messages</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Messages\LyraNotificationMessage.h">
+      <Filter>Source\LyraGame\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LyraGame\Messages\LyraVerbMessage.h">
+      <Filter>Source\LyraGame\Messages</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Messages\LyraVerbMessageHelpers.cpp">
+      <Filter>Source\LyraGame\Messages</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Messages\LyraVerbMessageHelpers.h">
+      <Filter>Source\LyraGame\Messages</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Messages\LyraVerbMessageReplication.cpp">
+      <Filter>Source\LyraGame\Messages</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Messages\LyraVerbMessageReplication.h">
+      <Filter>Source\LyraGame\Messages</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Performance">
+      <UniqueIdentifier>{A6736134-1937-327A-9A43-FAE3E7071E59}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Performance\LyraMemoryDebugCommands.cpp">
+      <Filter>Source\LyraGame\Performance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LyraGame\Performance\LyraPerformanceSettings.cpp">
+      <Filter>Source\LyraGame\Performance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Performance\LyraPerformanceSettings.h">
+      <Filter>Source\LyraGame\Performance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Performance\LyraPerformanceStatSubsystem.cpp">
+      <Filter>Source\LyraGame\Performance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Performance\LyraPerformanceStatSubsystem.h">
+      <Filter>Source\LyraGame\Performance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LyraGame\Performance\LyraPerformanceStatTypes.h">
+      <Filter>Source\LyraGame\Performance</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Physics">
+      <UniqueIdentifier>{9DC5B816-C749-3B19-9A06-F28527E573E3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\LyraGame\Physics\LyraCollisionChannels.h">
+      <Filter>Source\LyraGame\Physics</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Physics\PhysicalMaterialWithTags.cpp">
+      <Filter>Source\LyraGame\Physics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Physics\PhysicalMaterialWithTags.h">
+      <Filter>Source\LyraGame\Physics</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Player">
+      <UniqueIdentifier>{02F90605-6438-340B-9FB7-2C0F5A5BC11F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Player\LyraCheatManager.cpp">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Player\LyraCheatManager.h">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Player\LyraDebugCameraController.cpp">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Player\LyraDebugCameraController.h">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Player\LyraLocalPlayer.cpp">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Player\LyraLocalPlayer.h">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Player\LyraPlayerBotController.cpp">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Player\LyraPlayerBotController.h">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Player\LyraPlayerController.cpp">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Player\LyraPlayerController.h">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Player\LyraPlayerSpawningManagerComponent.cpp">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Player\LyraPlayerSpawningManagerComponent.h">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Player\LyraPlayerStart.cpp">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Player\LyraPlayerStart.h">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Player\LyraPlayerState.cpp">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Player\LyraPlayerState.h">
+      <Filter>Source\LyraGame\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Replays">
+      <UniqueIdentifier>{F501D276-D032-3908-89AA-9DBBA4746E0E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Replays\AsyncAction_QueryReplays.cpp">
+      <Filter>Source\LyraGame\Replays</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Replays\AsyncAction_QueryReplays.h">
+      <Filter>Source\LyraGame\Replays</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Replays\LyraReplaySubsystem.cpp">
+      <Filter>Source\LyraGame\Replays</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Replays\LyraReplaySubsystem.h">
+      <Filter>Source\LyraGame\Replays</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Settings">
+      <UniqueIdentifier>{EFCEC2A6-D15A-3346-BE46-8A1C83079CF1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\LyraGameSettingRegistry.cpp">
+      <Filter>Source\LyraGame\Settings</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Settings\LyraGameSettingRegistry.h">
+      <Filter>Source\LyraGame\Settings</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\LyraGameSettingRegistry_Audio.cpp">
+      <Filter>Source\LyraGame\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\LyraGameSettingRegistry_Gamepad.cpp">
+      <Filter>Source\LyraGame\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\LyraGameSettingRegistry_Gameplay.cpp">
+      <Filter>Source\LyraGame\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\LyraGameSettingRegistry_MouseAndKeyboard.cpp">
+      <Filter>Source\LyraGame\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\LyraGameSettingRegistry_PerfStats.cpp">
+      <Filter>Source\LyraGame\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\LyraGameSettingRegistry_Video.cpp">
+      <Filter>Source\LyraGame\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\LyraSettingsLocal.cpp">
+      <Filter>Source\LyraGame\Settings</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Settings\LyraSettingsLocal.h">
+      <Filter>Source\LyraGame\Settings</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\LyraSettingsShared.cpp">
+      <Filter>Source\LyraGame\Settings</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Settings\LyraSettingsShared.h">
+      <Filter>Source\LyraGame\Settings</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\LyraGame\Settings\README.md">
+      <Filter>Source\LyraGame\Settings</Filter>
+    </None>
+    <Filter Include="Source\LyraGame\Settings\CustomSettings">
+      <UniqueIdentifier>{7D4110BD-DCD7-3245-A9EC-3E1D9C00A37B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingAction_SafeZoneEditor.cpp">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingAction_SafeZoneEditor.h">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingKeyboardInput.cpp">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingKeyboardInput.h">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingValueDiscreteDynamic_AudioOutputDevice.cpp">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingValueDiscreteDynamic_AudioOutputDevice.h">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingValueDiscrete_Language.cpp">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingValueDiscrete_Language.h">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingValueDiscrete_MobileFPSType.cpp">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingValueDiscrete_MobileFPSType.h">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingValueDiscrete_OverallQuality.cpp">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingValueDiscrete_OverallQuality.h">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingValueDiscrete_PerfStat.cpp">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingValueDiscrete_PerfStat.h">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingValueDiscrete_Resolution.cpp">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Settings\CustomSettings\LyraSettingValueDiscrete_Resolution.h">
+      <Filter>Source\LyraGame\Settings\CustomSettings</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Settings\Screens">
+      <UniqueIdentifier>{E3E5847B-F068-399F-B8B9-B6FDC0D96166}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\Screens\LyraBrightnessEditor.cpp">
+      <Filter>Source\LyraGame\Settings\Screens</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Settings\Screens\LyraBrightnessEditor.h">
+      <Filter>Source\LyraGame\Settings\Screens</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\Screens\LyraSafeZoneEditor.cpp">
+      <Filter>Source\LyraGame\Settings\Screens</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Settings\Screens\LyraSafeZoneEditor.h">
+      <Filter>Source\LyraGame\Settings\Screens</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Settings\Widgets">
+      <UniqueIdentifier>{F40B8459-824E-3F01-9DB6-2B251A663155}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Settings\Widgets\LyraSettingsListEntrySetting_KeyboardInput.cpp">
+      <Filter>Source\LyraGame\Settings\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Settings\Widgets\LyraSettingsListEntrySetting_KeyboardInput.h">
+      <Filter>Source\LyraGame\Settings\Widgets</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\System">
+      <UniqueIdentifier>{026E1522-3C47-39CD-AC5A-EC49DA812C82}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\System\GameplayTagStack.cpp">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\System\GameplayTagStack.h">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\System\LyraActorUtilities.cpp">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\System\LyraActorUtilities.h">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\System\LyraAssetManager.cpp">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\System\LyraAssetManager.h">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\System\LyraAssetManagerStartupJob.cpp">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\System\LyraAssetManagerStartupJob.h">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\System\LyraDevelopmentStatics.cpp">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\System\LyraDevelopmentStatics.h">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\System\LyraGameData.cpp">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\System\LyraGameData.h">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\System\LyraGameEngine.cpp">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\System\LyraGameEngine.h">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\System\LyraGameInstance.cpp">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\System\LyraGameInstance.h">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\System\LyraGameSession.cpp">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\System\LyraGameSession.h">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\System\LyraSignificanceManager.cpp">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\System\LyraSignificanceManager.h">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\System\LyraSystemStatics.cpp">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\System\LyraSystemStatics.h">
+      <Filter>Source\LyraGame\System</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Teams">
+      <UniqueIdentifier>{2C10B745-E81D-3B54-BE77-B8545623EA6D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Teams\AsyncAction_ObserveTeam.cpp">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Teams\AsyncAction_ObserveTeam.h">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Teams\AsyncAction_ObserveTeamColors.cpp">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Teams\AsyncAction_ObserveTeamColors.h">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Teams\LyraTeamAgentInterface.cpp">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Teams\LyraTeamAgentInterface.h">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Teams\LyraTeamCheats.cpp">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Teams\LyraTeamCheats.h">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Teams\LyraTeamCreationComponent.cpp">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Teams\LyraTeamCreationComponent.h">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Teams\LyraTeamDisplayAsset.cpp">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Teams\LyraTeamDisplayAsset.h">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Teams\LyraTeamInfoBase.cpp">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Teams\LyraTeamInfoBase.h">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Teams\LyraTeamPrivateInfo.cpp">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Teams\LyraTeamPrivateInfo.h">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Teams\LyraTeamPublicInfo.cpp">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Teams\LyraTeamPublicInfo.h">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Teams\LyraTeamStatics.cpp">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Teams\LyraTeamStatics.h">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Teams\LyraTeamSubsystem.cpp">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Teams\LyraTeamSubsystem.h">
+      <Filter>Source\LyraGame\Teams</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Tests">
+      <UniqueIdentifier>{31033AD2-3CAF-3D71-A43F-81BD5603D00D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Tests\LyraTestControllerBootTest.cpp">
+      <Filter>Source\LyraGame\Tests</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Tests\LyraTestControllerBootTest.h">
+      <Filter>Source\LyraGame\Tests</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\UI">
+      <UniqueIdentifier>{439F8B09-094D-348C-919E-DDC27123247E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\UI\LyraActivatableWidget.cpp">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\LyraActivatableWidget.h">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\LyraGameViewportClient.cpp">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\LyraGameViewportClient.h">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\LyraHUD.cpp">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\LyraHUD.h">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\LyraHUDLayout.cpp">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\LyraHUDLayout.h">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\LyraJoystickWidget.cpp">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\LyraJoystickWidget.h">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\LyraSettingScreen.cpp">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\LyraSettingScreen.h">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\LyraSimulatedInputWidget.cpp">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\LyraSimulatedInputWidget.h">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\LyraTaggedWidget.cpp">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\LyraTaggedWidget.h">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\LyraTouchRegion.cpp">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\LyraTouchRegion.h">
+      <Filter>Source\LyraGame\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\UI\Basic">
+      <UniqueIdentifier>{D3B12228-D8B2-3173-BFE5-42A44D8CFF37}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Basic\MaterialProgressBar.cpp">
+      <Filter>Source\LyraGame\UI\Basic</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Basic\MaterialProgressBar.h">
+      <Filter>Source\LyraGame\UI\Basic</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\UI\Common">
+      <UniqueIdentifier>{506B62FF-35D5-39FD-91B5-D609D4011D60}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Common\LyraBoundActionButton.cpp">
+      <Filter>Source\LyraGame\UI\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Common\LyraBoundActionButton.h">
+      <Filter>Source\LyraGame\UI\Common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Common\LyraListView.cpp">
+      <Filter>Source\LyraGame\UI\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Common\LyraListView.h">
+      <Filter>Source\LyraGame\UI\Common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Common\LyraTabButtonBase.cpp">
+      <Filter>Source\LyraGame\UI\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Common\LyraTabButtonBase.h">
+      <Filter>Source\LyraGame\UI\Common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Common\LyraTabListWidgetBase.cpp">
+      <Filter>Source\LyraGame\UI\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Common\LyraTabListWidgetBase.h">
+      <Filter>Source\LyraGame\UI\Common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Common\LyraWidgetFactory.cpp">
+      <Filter>Source\LyraGame\UI\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Common\LyraWidgetFactory.h">
+      <Filter>Source\LyraGame\UI\Common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Common\LyraWidgetFactory_Class.cpp">
+      <Filter>Source\LyraGame\UI\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Common\LyraWidgetFactory_Class.h">
+      <Filter>Source\LyraGame\UI\Common</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\UI\Foundation">
+      <UniqueIdentifier>{2B5A8B35-9031-3CE3-8E80-201031F17392}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Foundation\LyraActionWidget.cpp">
+      <Filter>Source\LyraGame\UI\Foundation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Foundation\LyraActionWidget.h">
+      <Filter>Source\LyraGame\UI\Foundation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Foundation\LyraButtonBase.cpp">
+      <Filter>Source\LyraGame\UI\Foundation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Foundation\LyraButtonBase.h">
+      <Filter>Source\LyraGame\UI\Foundation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Foundation\LyraConfirmationScreen.cpp">
+      <Filter>Source\LyraGame\UI\Foundation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Foundation\LyraConfirmationScreen.h">
+      <Filter>Source\LyraGame\UI\Foundation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Foundation\LyraControllerDisconnectedScreen.cpp">
+      <Filter>Source\LyraGame\UI\Foundation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Foundation\LyraControllerDisconnectedScreen.h">
+      <Filter>Source\LyraGame\UI\Foundation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Foundation\LyraLoadingScreenSubsystem.cpp">
+      <Filter>Source\LyraGame\UI\Foundation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Foundation\LyraLoadingScreenSubsystem.h">
+      <Filter>Source\LyraGame\UI\Foundation</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\UI\Frontend">
+      <UniqueIdentifier>{9B72159D-05BC-3B10-94F8-6B9648ACF11F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Frontend\ApplyFrontendPerfSettingsAction.cpp">
+      <Filter>Source\LyraGame\UI\Frontend</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Frontend\ApplyFrontendPerfSettingsAction.h">
+      <Filter>Source\LyraGame\UI\Frontend</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Frontend\LyraFrontendStateComponent.cpp">
+      <Filter>Source\LyraGame\UI\Frontend</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Frontend\LyraFrontendStateComponent.h">
+      <Filter>Source\LyraGame\UI\Frontend</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Frontend\LyraLobbyBackground.cpp">
+      <Filter>Source\LyraGame\UI\Frontend</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Frontend\LyraLobbyBackground.h">
+      <Filter>Source\LyraGame\UI\Frontend</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\UI\IndicatorSystem">
+      <UniqueIdentifier>{F0668F44-42AA-328E-92EE-56828289B143}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\LyraGame\UI\IndicatorSystem\IActorIndicatorWidget.h">
+      <Filter>Source\LyraGame\UI\IndicatorSystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\IndicatorSystem\IndicatorDescriptor.cpp">
+      <Filter>Source\LyraGame\UI\IndicatorSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\IndicatorSystem\IndicatorDescriptor.h">
+      <Filter>Source\LyraGame\UI\IndicatorSystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\IndicatorSystem\IndicatorLayer.cpp">
+      <Filter>Source\LyraGame\UI\IndicatorSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\IndicatorSystem\IndicatorLayer.h">
+      <Filter>Source\LyraGame\UI\IndicatorSystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\IndicatorSystem\IndicatorLibrary.cpp">
+      <Filter>Source\LyraGame\UI\IndicatorSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\IndicatorSystem\IndicatorLibrary.h">
+      <Filter>Source\LyraGame\UI\IndicatorSystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\IndicatorSystem\LyraIndicatorManagerComponent.cpp">
+      <Filter>Source\LyraGame\UI\IndicatorSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\IndicatorSystem\LyraIndicatorManagerComponent.h">
+      <Filter>Source\LyraGame\UI\IndicatorSystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\IndicatorSystem\SActorCanvas.cpp">
+      <Filter>Source\LyraGame\UI\IndicatorSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\IndicatorSystem\SActorCanvas.h">
+      <Filter>Source\LyraGame\UI\IndicatorSystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\UI\PerformanceStats">
+      <UniqueIdentifier>{22BB1AE9-7282-306F-A7A7-FF120E90D528}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\UI\PerformanceStats\LyraPerfStatContainerBase.cpp">
+      <Filter>Source\LyraGame\UI\PerformanceStats</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\PerformanceStats\LyraPerfStatContainerBase.h">
+      <Filter>Source\LyraGame\UI\PerformanceStats</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\PerformanceStats\LyraPerfStatWidgetBase.cpp">
+      <Filter>Source\LyraGame\UI\PerformanceStats</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\PerformanceStats\LyraPerfStatWidgetBase.h">
+      <Filter>Source\LyraGame\UI\PerformanceStats</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\UI\Subsystem">
+      <UniqueIdentifier>{52F948A2-157B-30A9-9111-3FA16C2E755B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Subsystem\LyraUIManagerSubsystem.cpp">
+      <Filter>Source\LyraGame\UI\Subsystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Subsystem\LyraUIManagerSubsystem.h">
+      <Filter>Source\LyraGame\UI\Subsystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Subsystem\LyraUIMessaging.cpp">
+      <Filter>Source\LyraGame\UI\Subsystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Subsystem\LyraUIMessaging.h">
+      <Filter>Source\LyraGame\UI\Subsystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\UI\Weapons">
+      <UniqueIdentifier>{8C7308AA-7503-3042-9356-7CD001633305}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Weapons\CircumferenceMarkerWidget.cpp">
+      <Filter>Source\LyraGame\UI\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Weapons\CircumferenceMarkerWidget.h">
+      <Filter>Source\LyraGame\UI\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Weapons\HitMarkerConfirmationWidget.cpp">
+      <Filter>Source\LyraGame\UI\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Weapons\HitMarkerConfirmationWidget.h">
+      <Filter>Source\LyraGame\UI\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Weapons\LyraReticleWidgetBase.cpp">
+      <Filter>Source\LyraGame\UI\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Weapons\LyraReticleWidgetBase.h">
+      <Filter>Source\LyraGame\UI\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Weapons\LyraWeaponUserInterface.cpp">
+      <Filter>Source\LyraGame\UI\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Weapons\LyraWeaponUserInterface.h">
+      <Filter>Source\LyraGame\UI\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Weapons\SCircumferenceMarkerWidget.cpp">
+      <Filter>Source\LyraGame\UI\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Weapons\SCircumferenceMarkerWidget.h">
+      <Filter>Source\LyraGame\UI\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\UI\Weapons\SHitMarkerConfirmationWidget.cpp">
+      <Filter>Source\LyraGame\UI\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\UI\Weapons\SHitMarkerConfirmationWidget.h">
+      <Filter>Source\LyraGame\UI\Weapons</Filter>
+    </ClInclude>
+    <Filter Include="Source\LyraGame\Weapons">
+      <UniqueIdentifier>{034E3506-D1FE-33C1-B2F2-0C42FA1D76A9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LyraGame\Weapons\InventoryFragment_ReticleConfig.cpp">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Weapons\InventoryFragment_ReticleConfig.h">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Weapons\LyraDamageLogDebuggerComponent.cpp">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Weapons\LyraDamageLogDebuggerComponent.h">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Weapons\LyraGameplayAbility_RangedWeapon.cpp">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Weapons\LyraGameplayAbility_RangedWeapon.h">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Weapons\LyraRangedWeaponInstance.cpp">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Weapons\LyraRangedWeaponInstance.h">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Weapons\LyraWeaponDebugSettings.cpp">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Weapons\LyraWeaponDebugSettings.h">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Weapons\LyraWeaponInstance.cpp">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Weapons\LyraWeaponInstance.h">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Weapons\LyraWeaponSpawner.cpp">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Weapons\LyraWeaponSpawner.h">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LyraGame\Weapons\LyraWeaponStateComponent.cpp">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LyraGame\Weapons\LyraWeaponStateComponent.h">
+      <Filter>Source\LyraGame\Weapons</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
