@@ -86,3 +86,5 @@ Plugins/GameFeatures/ShooterCore/Intermediate
 Plugins/GameFeatures/ProjectPayday/Intermediate
 Plugins/GameFeatures/ProjectPayday/Binaries
 Plugins/GameFeatures/ShooterCore/Binaries
+*.uproject
+*.vcxproj
