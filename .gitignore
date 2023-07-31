@@ -80,7 +80,6 @@ DerivedDataCache/*
 
 # ETC
 Binaries/*
-*.uproject
 .vsconfig
 Plugins/GameFeatures/ShooterCore/Intermediate
 Plugins/GameFeatures/ProjectPayday/Intermediate
