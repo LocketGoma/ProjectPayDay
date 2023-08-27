@@ -208,7 +208,7 @@ bool ULyraRangedWeaponInstance::UpdateMultipliers(float DeltaSeconds)
 	const bool bAimingMultiplierAtTarget = FMath::IsNearlyEqual(AimingMultiplier, SpreadAngleMultiplier_Aiming, KINDA_SMALL_NUMBER);
 
 	// Combine all the multipliers
-	const float CombinedMultiplier = AimingMultiplier * StandingStillMultiplier * CrouchingMultiplier * JumpFallMultiplier;
+	const float CombinedMultiplier = AimingMultiplier * StandingStillMultiplier * CrouchingMultiplier * JumpFallMultiplier * RunSpreadMultiplier;
 	CurrentSpreadAngleMultiplier = CombinedMultiplier;
 
 	// need to handle these spread multipliers indicating we are not at min spread
